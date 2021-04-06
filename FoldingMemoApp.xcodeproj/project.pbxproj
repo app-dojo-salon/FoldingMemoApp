@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2693930A261C636900D624CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26939309261C636900D624CB /* AppDelegate.swift */; };
+		2693930C261C636900D624CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693930B261C636900D624CB /* SceneDelegate.swift */; };
+		2693930E261C636900D624CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693930D261C636900D624CB /* ViewController.swift */; };
+		26939311261C636900D624CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2693930F261C636900D624CB /* Main.storyboard */; };
+		26939313261C636900D624CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26939312261C636900D624CB /* Assets.xcassets */; };
+		26939316261C636900D624CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26939314261C636900D624CB /* LaunchScreen.storyboard */; };
+		26939321261C636900D624CB /* FoldingMemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26939320261C636900D624CB /* FoldingMemoAppTests.swift */; };
+		2693932C261C636900D624CB /* FoldingMemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693932B261C636900D624CB /* FoldingMemoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2693931D261C636900D624CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269392FE261C636900D624CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26939305261C636900D624CB;
+			remoteInfo = FoldingMemoApp;
+		};
+		26939328261C636900D624CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269392FE261C636900D624CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26939305261C636900D624CB;
+			remoteInfo = FoldingMemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26939306261C636900D624CB /* FoldingMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldingMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26939309261C636900D624CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2693930B261C636900D624CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2693930D261C636900D624CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26939310261C636900D624CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26939312261C636900D624CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26939315261C636900D624CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26939317261C636900D624CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2693931C261C636900D624CB /* FoldingMemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldingMemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26939320261C636900D624CB /* FoldingMemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingMemoAppTests.swift; sourceTree = "<group>"; };
+		26939322261C636900D624CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26939327261C636900D624CB /* FoldingMemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldingMemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2693932B261C636900D624CB /* FoldingMemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingMemoAppUITests.swift; sourceTree = "<group>"; };
+		2693932D261C636900D624CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26939303261C636900D624CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26939319261C636900D624CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26939324261C636900D624CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269392FD261C636900D624CB = {
+			isa = PBXGroup;
+			children = (
+				26939308261C636900D624CB /* FoldingMemoApp */,
+				2693931F261C636900D624CB /* FoldingMemoAppTests */,
+				2693932A261C636900D624CB /* FoldingMemoAppUITests */,
+				26939307261C636900D624CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26939307261C636900D624CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26939306261C636900D624CB /* FoldingMemoApp.app */,
+				2693931C261C636900D624CB /* FoldingMemoAppTests.xctest */,
+				26939327261C636900D624CB /* FoldingMemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26939308261C636900D624CB /* FoldingMemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				26939309261C636900D624CB /* AppDelegate.swift */,
+				2693930B261C636900D624CB /* SceneDelegate.swift */,
+				2693930D261C636900D624CB /* ViewController.swift */,
+				2693930F261C636900D624CB /* Main.storyboard */,
+				26939312261C636900D624CB /* Assets.xcassets */,
+				26939314261C636900D624CB /* LaunchScreen.storyboard */,
+				26939317261C636900D624CB /* Info.plist */,
+			);
+			path = FoldingMemoApp;
+			sourceTree = "<group>";
+		};
+		2693931F261C636900D624CB /* FoldingMemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				26939320261C636900D624CB /* FoldingMemoAppTests.swift */,
+				26939322261C636900D624CB /* Info.plist */,
+			);
+			path = FoldingMemoAppTests;
+			sourceTree = "<group>";
+		};
+		2693932A261C636900D624CB /* FoldingMemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2693932B261C636900D624CB /* FoldingMemoAppUITests.swift */,
+				2693932D261C636900D624CB /* Info.plist */,
+			);
+			path = FoldingMemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26939305261C636900D624CB /* FoldingMemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26939330261C636900D624CB /* Build configuration list for PBXNativeTarget "FoldingMemoApp" */;
+			buildPhases = (
+				26939302261C636900D624CB /* Sources */,
+				26939303261C636900D624CB /* Frameworks */,
+				26939304261C636900D624CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldingMemoApp;
+			productName = FoldingMemoApp;
+			productReference = 26939306261C636900D624CB /* FoldingMemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2693931B261C636900D624CB /* FoldingMemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26939333261C636900D624CB /* Build configuration list for PBXNativeTarget "FoldingMemoAppTests" */;
+			buildPhases = (
+				26939318261C636900D624CB /* Sources */,
+				26939319261C636900D624CB /* Frameworks */,
+				2693931A261C636900D624CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2693931E261C636900D624CB /* PBXTargetDependency */,
+			);
+			name = FoldingMemoAppTests;
+			productName = FoldingMemoAppTests;
+			productReference = 2693931C261C636900D624CB /* FoldingMemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26939326261C636900D624CB /* FoldingMemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26939336261C636900D624CB /* Build configuration list for PBXNativeTarget "FoldingMemoAppUITests" */;
+			buildPhases = (
+				26939323261C636900D624CB /* Sources */,
+				26939324261C636900D624CB /* Frameworks */,
+				26939325261C636900D624CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26939329261C636900D624CB /* PBXTargetDependency */,
+			);
+			name = FoldingMemoAppUITests;
+			productName = FoldingMemoAppUITests;
+			productReference = 26939327261C636900D624CB /* FoldingMemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269392FE261C636900D624CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					26939305261C636900D624CB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2693931B261C636900D624CB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 26939305261C636900D624CB;
+					};
+					26939326261C636900D624CB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 26939305261C636900D624CB;
+					};
+				};
+			};
+			buildConfigurationList = 26939301261C636900D624CB /* Build configuration list for PBXProject "FoldingMemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269392FD261C636900D624CB;
+			productRefGroup = 26939307261C636900D624CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26939305261C636900D624CB /* FoldingMemoApp */,
+				2693931B261C636900D624CB /* FoldingMemoAppTests */,
+				26939326261C636900D624CB /* FoldingMemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26939304261C636900D624CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26939316261C636900D624CB /* LaunchScreen.storyboard in Resources */,
+				26939313261C636900D624CB /* Assets.xcassets in Resources */,
+				26939311261C636900D624CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2693931A261C636900D624CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26939325261C636900D624CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26939302261C636900D624CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2693930E261C636900D624CB /* ViewController.swift in Sources */,
+				2693930A261C636900D624CB /* AppDelegate.swift in Sources */,
+				2693930C261C636900D624CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26939318261C636900D624CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26939321261C636900D624CB /* FoldingMemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26939323261C636900D624CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2693932C261C636900D624CB /* FoldingMemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2693931E261C636900D624CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26939305261C636900D624CB /* FoldingMemoApp */;
+			targetProxy = 2693931D261C636900D624CB /* PBXContainerItemProxy */;
+		};
+		26939329261C636900D624CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26939305261C636900D624CB /* FoldingMemoApp */;
+			targetProxy = 26939328261C636900D624CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2693930F261C636900D624CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26939310261C636900D624CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26939314261C636900D624CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26939315261C636900D624CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2693932E261C636900D624CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2693932F261C636900D624CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26939331261C636900D624CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2H35G2ZM;
+				INFOPLIST_FILE = FoldingMemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takuma-2531.FoldingMemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26939332261C636900D624CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2H35G2ZM;
+				INFOPLIST_FILE = FoldingMemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takuma-2531.FoldingMemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26939334261C636900D624CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2H35G2ZM;
+				INFOPLIST_FILE = FoldingMemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takuma-2531.FoldingMemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoldingMemoApp.app/FoldingMemoApp";
+			};
+			name = Debug;
+		};
+		26939335261C636900D624CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2H35G2ZM;
+				INFOPLIST_FILE = FoldingMemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takuma-2531.FoldingMemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoldingMemoApp.app/FoldingMemoApp";
+			};
+			name = Release;
+		};
+		26939337261C636900D624CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2H35G2ZM;
+				INFOPLIST_FILE = FoldingMemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takuma-2531.FoldingMemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoldingMemoApp;
+			};
+			name = Debug;
+		};
+		26939338261C636900D624CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2H35G2ZM;
+				INFOPLIST_FILE = FoldingMemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takuma-2531.FoldingMemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoldingMemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26939301261C636900D624CB /* Build configuration list for PBXProject "FoldingMemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2693932E261C636900D624CB /* Debug */,
+				2693932F261C636900D624CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26939330261C636900D624CB /* Build configuration list for PBXNativeTarget "FoldingMemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26939331261C636900D624CB /* Debug */,
+				26939332261C636900D624CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26939333261C636900D624CB /* Build configuration list for PBXNativeTarget "FoldingMemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26939334261C636900D624CB /* Debug */,
+				26939335261C636900D624CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26939336261C636900D624CB /* Build configuration list for PBXNativeTarget "FoldingMemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26939337261C636900D624CB /* Debug */,
+				26939338261C636900D624CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 269392FE261C636900D624CB /* Project object */;
+}

@@ -76,6 +76,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		265E9EB7262153E300251846 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		265E9EB8262153EB00251846 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		265E9EB9262153F300251846 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		269392FD261C636900D624CB = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +120,9 @@
 		26939308261C636900D624CB /* FoldingMemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				265E9EB7262153E300251846 /* Models */,
+				265E9EB8262153EB00251846 /* Views */,
+				265E9EB9262153F300251846 /* Controllers */,
 				26939309261C636900D624CB /* AppDelegate.swift */,
 				2693930B261C636900D624CB /* SceneDelegate.swift */,
 				2693930D261C636900D624CB /* ViewController.swift */,

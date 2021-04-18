@@ -22,7 +22,7 @@ final class TitleListViewController: UIViewController {
 
 }
 
-extension TitleListViewController: UITableViewDataSource, UITableViewDelegate {
+extension TitleListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         1
     }
@@ -32,5 +32,8 @@ extension TitleListViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     
+}
+
+extension TitleListViewController: UITableViewDelegate {
     
 }

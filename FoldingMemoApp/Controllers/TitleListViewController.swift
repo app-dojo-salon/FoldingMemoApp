@@ -14,6 +14,8 @@ final class TitleListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.dataSource = self
+        tableView.delegate = self
         tableView.register(MemoDetailTableViewCell.nib(), forCellReuseIdentifier: MemoDetailTableViewCell.identifier)
     }
 

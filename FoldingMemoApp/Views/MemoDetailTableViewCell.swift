@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MemoDetailTableViewCell: UITableViewCell {
+final class MemoDetailTableViewCell: UITableViewCell {
     
     static var identifier: String {
         return String(describing: self)

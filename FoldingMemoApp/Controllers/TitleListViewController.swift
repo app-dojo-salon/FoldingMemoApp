@@ -14,8 +14,26 @@ final class TitleListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.register(MemoDetailTableViewCell.nib(), forCellReuseIdentifier: MemoDetailTableViewCell.identifier)
     }
 
 
 }
 
+extension TitleListViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: MemoDetailTableViewCell.identifier, for: indexPath) as! MemoDetailTableViewCell
+        return cell
+    }
+    
+}
+
+extension TitleListViewController: UITableViewDelegate {
+    
+}

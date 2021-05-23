@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AddMemoViewController: UIViewController {
+final class AddMemoViewController: UIViewController {
     @IBOutlet private weak var tableView: UITableView!
 
     override func viewDidLoad() {
@@ -29,6 +29,7 @@ extension AddMemoViewController: UITableViewDataSource {
         return cell
     }
 }
+
 extension AddMemoViewController: UITableViewDelegate {
     
 }

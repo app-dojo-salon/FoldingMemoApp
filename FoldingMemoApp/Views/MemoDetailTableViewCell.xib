@@ -17,7 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="177"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qvA-AW-OX8">
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qvA-AW-OX8">
                         <rect key="frame" x="16" y="41" width="288" height="127"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -33,30 +33,30 @@
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5Q-Pv-BlM">
                         <rect key="frame" x="240" y="8" width="36" height="30"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="36" id="vSN-5h-uyG"/>
+                            <constraint firstAttribute="width" constant="36" id="vSN-GK-Ayi"/>
                         </constraints>
                         <state key="normal" title="more"/>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUP-it-eZu">
                         <rect key="frame" x="284" y="12" width="20" height="22"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="20" id="A0H-LM-dNR"/>
+                            <constraint firstAttribute="width" constant="20" id="JVu-1b-O2N"/>
                         </constraints>
                         <state key="normal" image="chevron.up.circle" catalog="system"/>
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="qvA-AW-OX8" secondAttribute="bottom" constant="9" id="HDN-QP-VPO"/>
-                    <constraint firstItem="qvA-AW-OX8" firstAttribute="top" secondItem="W1x-ZC-ZFv" secondAttribute="bottom" constant="8.5" id="MU6-II-BH2"/>
-                    <constraint firstItem="Y5Q-Pv-BlM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="OYo-jp-djx"/>
-                    <constraint firstItem="W1x-ZC-ZFv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="Qhd-oW-W1I"/>
-                    <constraint firstItem="RUP-it-eZu" firstAttribute="leading" secondItem="Y5Q-Pv-BlM" secondAttribute="trailing" constant="8" symbolic="YES" id="U5b-I6-7P2"/>
-                    <constraint firstItem="RUP-it-eZu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="d9T-Qe-vZ0"/>
-                    <constraint firstItem="qvA-AW-OX8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="fUW-je-ArU"/>
-                    <constraint firstAttribute="trailing" secondItem="RUP-it-eZu" secondAttribute="trailing" constant="16" id="gZo-aj-w3t"/>
-                    <constraint firstItem="Y5Q-Pv-BlM" firstAttribute="leading" secondItem="W1x-ZC-ZFv" secondAttribute="trailing" constant="8" symbolic="YES" id="lVy-J0-nKN"/>
-                    <constraint firstAttribute="trailing" secondItem="qvA-AW-OX8" secondAttribute="trailing" constant="16" id="wdq-Tm-EQn"/>
-                    <constraint firstItem="W1x-ZC-ZFv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="zlN-8E-vmf"/>
+                    <constraint firstItem="qvA-AW-OX8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="72o-A9-rGK"/>
+                    <constraint firstItem="W1x-ZC-ZFv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="CX1-z8-mPs"/>
+                    <constraint firstItem="Y5Q-Pv-BlM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Ecw-Qp-HrH"/>
+                    <constraint firstItem="qvA-AW-OX8" firstAttribute="top" secondItem="Y5Q-Pv-BlM" secondAttribute="bottom" constant="3" id="Gzu-PA-6Ne"/>
+                    <constraint firstAttribute="bottom" secondItem="qvA-AW-OX8" secondAttribute="bottom" constant="9" id="NUs-nB-ZE4"/>
+                    <constraint firstItem="Y5Q-Pv-BlM" firstAttribute="leading" secondItem="W1x-ZC-ZFv" secondAttribute="trailing" constant="8" symbolic="YES" id="NWQ-oz-aHr"/>
+                    <constraint firstAttribute="trailing" secondItem="qvA-AW-OX8" secondAttribute="trailing" constant="16" id="NWU-rL-ixl"/>
+                    <constraint firstItem="RUP-it-eZu" firstAttribute="leading" secondItem="Y5Q-Pv-BlM" secondAttribute="trailing" constant="8" symbolic="YES" id="bwJ-1X-2Ig"/>
+                    <constraint firstAttribute="trailing" secondItem="RUP-it-eZu" secondAttribute="trailing" constant="16" id="gzC-Z1-XOJ"/>
+                    <constraint firstItem="RUP-it-eZu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="q6n-rJ-nrE"/>
+                    <constraint firstItem="W1x-ZC-ZFv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="vrS-6z-6fY"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
